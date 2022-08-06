@@ -13,31 +13,31 @@ const quotes = [
   },
   {
     quote: "The die is cast.",
-    author: "Julius Caesar",
+    author: "- Julius Caesar",
   },
   {
     quote: "No pain, No gain.",
-    author: "Benjamin Franklin",
+    author: "- Benjamin Franklin",
   },
   {
     quote: "Don't dream, Be it.",
-    author: "Tim curry",
+    author: "- Tim curry",
   },
   {
     quote: "Life is a journey.",
-    author: "Ralph Waldo Emerson",
+    author: "- Ralph Waldo Emerson",
   },
   {
     quote: "Where there is a will there is a way.",
-    author: "Angela Merkel",
+    author: "- Angela Merkel",
   },
   {
     quote: "Every horse thinks its own pack heaviest.",
-    author: "Thomas Fuller",
+    author: "- Thomas Fuller",
   },
   {
     quote: "Necessity is the mother of taking chances.",
-    author: "Mark Twain",
+    author: "- Mark Twain",
   },
 ];
 

@@ -1,3 +1,110 @@
+body {
+  color: black;
+  font-family: "Merienda", cursive;
+  height: 200vh;
+}
+
+img {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  opacity: 0.8;
+}
+
 .hidden {
-  display: none;
+  position: fixed;
+  top: 0;
+  visibility: hidden;
+}
+
+#weather {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+}
+
+#clock {
+  display: flex;
+  justify-content: center;
+  font-size: 150px;
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+
+#login-form {
+  display: flex;
+  justify-content: center;
+}
+
+#greeting {
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
+}
+
+#quote {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#quote span {
+  margin: 10px;
+}
+
+#login-form input {
+  width: 150px;
+  outline: none;
+  color: whitesmoke;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid whitesmoke;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+#todo-form {
+  display: flex;
+  justify-content: center;
+}
+
+#todo-form input {
+  width: 250px;
+  outline: none;
+  color: whitesmoke;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid lightgray;
+  padding: 10px;
+  margin-top: 15px;
+}
+
+#login-form input::placeholder,
+#todo-form input::placeholder {
+  font-size: 15px;
+  text-align: center;
+  color: lightgray;
+}
+
+#todo-list {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#todo-list li {
+  color: whitesmoke;
+  margin: 5px;
+}
+
+#todo-list button {
+  background-color: transparent;
+  border: none;
+  margin-left: 10px;
 }
